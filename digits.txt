@@ -1,0 +1,12 @@
+28 28
+10
+zero
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
