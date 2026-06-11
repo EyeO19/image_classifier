@@ -56,15 +56,6 @@ MultiPerceptron (10 × Perceptron)
 | Test error rate | ~14% |
 | Error rate before training | ~90.4% |
 
-## Demo
-
-<!-- TODO: Replace with your own assets -->
-[SCREENSHOT: Sample MNIST digit images used as input]
-
-[SCREENSHOT OR GIF: Terminal output showing misclassified examples and final line `test error rate = 0.14`]
-
-[OPTIONAL: Link to screen recording or live demo — [YOUR DEMO URL]]
-
 ## Setup and Run
 
 ### Prerequisites
@@ -127,11 +118,3 @@ A error rate of `0.14` corresponds to 86% accuracy.
 - **Pixel features, no preprocessing**: Feature extraction reads the blue channel of each pixel in row-major order into a 784-element vector. There is no normalization, PCA, or convolution.
 - **Linear model limits**: A single-layer perceptron on raw pixels reaches roughly 86% on this task. That is expected for a linear classifier on MNIST; the value is in implementing the learning algorithm directly rather than maximizing benchmark score.
 - **Observed error pattern**: 9s were the most frequently misclassified digit, often confused with 7s, likely due to similar angular strokes in handwritten samples.
-
-## Project Context
-
-[YOUR CONTEXT: e.g. personal project / coursework for COS126 at Princeton, completed Spring 2025. What you implemented vs. what came from course starter files.]
-
-## License
-
-[YOUR LICENSE: e.g. MIT — add a LICENSE file if you choose one]
