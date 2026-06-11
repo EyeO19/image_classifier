@@ -17,7 +17,6 @@ A command-line Java program that classifies handwritten digits (0–9) using a m
 | Language | Java (standard JDK; no version pinned in this repo) |
 | JDK API | `java.awt.Color` for pixel values |
 | Dataset | MNIST-style handwritten digits, loaded from `digits.jar` |
-| Build / deps | No Maven, Gradle, or `package.json`; compile and run with `javac` / `java` and a classpath |
 
 ## Architecture
 
